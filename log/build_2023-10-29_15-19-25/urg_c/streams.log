@@ -1,0 +1,62 @@
+[0.030s] Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_c': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/urg_c -- -j16 -l16
+[0.098s] [ 29%] Built target urg_c
+[0.132s] [ 35%] Built target open_urg_sensor
+[0.176s] [ 47%] Built target angle_convert_test
+[0.176s] [ 47%] Built target calculate_xy
+[0.176s] [ 52%] Built target find_port
+[0.179s] [ 58%] Built target get_distance
+[0.183s] [ 79%] Built target reboot_test
+[0.183s] [ 76%] Built target get_distance_intensity
+[0.183s] [ 76%] Built target timeout_test
+[0.183s] [ 85%] Built target sensor_parameter
+[0.183s] [ 88%] Built target sync_time_stamp
+[0.184s] [ 94%] Built target get_multiecho
+[0.186s] [100%] Built target get_multiecho_intensity
+[0.201s] Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_c' returned '0': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/urg_c -- -j16 -l16
+[0.331s] Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_c': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/urg_c
+[0.339s] -- Install configuration: ""
+[0.339s] -- Execute custom install script
+[0.339s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib/liburg_c.so
+[0.339s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib/libopen_urg_sensor.a
+[0.340s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin/angle_convert_test
+[0.340s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin/calculate_xy
+[0.340s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin/find_port
+[0.340s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin/get_distance
+[0.340s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin/get_distance_intensity
+[0.340s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin/get_multiecho
+[0.340s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin/get_multiecho_intensity
+[0.340s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin/reboot_test
+[0.341s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin/sensor_parameter
+[0.341s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin/sync_time_stamp
+[0.341s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin/timeout_test
+[0.341s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/include/urg_c/urg_connection.h
+[0.341s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/include/urg_c/urg_debug.h
+[0.341s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/include/urg_c/urg_detect_os.h
+[0.342s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/include/urg_c/urg_errno.h
+[0.342s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/include/urg_c/urg_ring_buffer.h
+[0.342s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/include/urg_c/urg_sensor.h
+[0.342s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/include/urg_c/urg_serial.h
+[0.342s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/include/urg_c/urg_serial_utils.h
+[0.342s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/include/urg_c/urg_tcpclient.h
+[0.342s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/include/urg_c/urg_time.h
+[0.342s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/include/urg_c/urg_utils.h
+[0.343s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/environment/library_path.sh
+[0.343s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/environment/library_path.dsv
+[0.343s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/ament_index/resource_index/package_run_dependencies/urg_c
+[0.343s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/ament_index/resource_index/parent_prefix_path/urg_c
+[0.343s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/environment/ament_prefix_path.sh
+[0.343s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/environment/ament_prefix_path.dsv
+[0.343s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/environment/path.sh
+[0.343s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/environment/path.dsv
+[0.344s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/local_setup.bash
+[0.344s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/local_setup.sh
+[0.344s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/local_setup.zsh
+[0.344s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/local_setup.dsv
+[0.344s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/package.dsv
+[0.355s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/ament_index/resource_index/packages/urg_c
+[0.355s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.356s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/cmake/ament_cmake_export_libraries-extras.cmake
+[0.356s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/cmake/urg_cConfig.cmake
+[0.356s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/cmake/urg_cConfig-version.cmake
+[0.356s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/package.xml
+[0.361s] Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_c' returned '0': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/urg_c

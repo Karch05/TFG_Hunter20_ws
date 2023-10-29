@@ -1,0 +1,74 @@
+[0.022s] Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node': AMENT_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg LD_LIBRARY_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib:/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib:${LD_LIBRARY_PATH} PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin:${PATH} PYTHONPATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/urg_node -- -j16 -l16
+[0.057s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.211s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.222s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.249s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.251s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.257s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.269s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.428s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.430s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.577s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.705s] -- Found laser_proc: 1.0.2 (/opt/ros/humble/share/laser_proc/cmake)
+[0.819s] -- Found rclcpp_components: 16.0.5 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.868s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[0.882s] -- Found urg_c: 1.0.4001 (/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/cmake)
+[0.883s] -- Found urg_node_msgs: 1.0.1 (/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake)
+[0.942s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.007s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.007s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/karch/ws/TFG_Hunter20_ws/src/urg_node/include>
+[1.007s] -- Configured cppcheck exclude dirs and/or files: 
+[1.008s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.008s] -- Configured cpplint exclude dirs and/or files: 
+[1.008s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.009s] -- Added test 'lint_cmake' to check CMake code style
+[1.009s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.010s] -- Added test 'uncrustify' to check C / C++ code style
+[1.010s] -- Configured uncrustify additional arguments: 
+[1.011s] -- Added test 'xmllint' to check XML markup files
+[1.013s] -- Configuring done
+[1.046s] -- Generating done
+[1.048s] -- Build files have been written to: /home/karch/ws/TFG_Hunter20_ws/build/urg_node
+[1.086s] [35m[1mConsolidate compiler generated dependencies of target urg_node_driver[0m
+[1.086s] [35m[1mConsolidate compiler generated dependencies of target urg_node[0m
+[1.111s] [ 28%] Built target urg_node_driver
+[1.117s] [ 71%] Built target urg_node
+[1.133s] [35m[1mConsolidate compiler generated dependencies of target getID[0m
+[1.159s] [100%] Built target getID
+[1.174s] Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node' returned '0': AMENT_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg LD_LIBRARY_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib:/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib:${LD_LIBRARY_PATH} PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin:${PATH} PYTHONPATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/urg_node -- -j16 -l16
+[1.236s] Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node': AMENT_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg LD_LIBRARY_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib:/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib:${LD_LIBRARY_PATH} PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin:${PATH} PYTHONPATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/urg_node
+[1.246s] -- Install configuration: ""
+[1.246s] -- Execute custom install script
+[1.246s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/lib/urg_node/urg_node_driver
+[1.247s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/lib/liburg_node.so
+[1.247s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/lib/urg_node/getID
+[1.247s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/include/urg_node/urg_c_wrapper.hpp
+[1.247s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/include/urg_node/urg_node.hpp
+[1.247s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/lib/urg_node/set_urg_ip.py
+[1.247s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/launch/urg_lidar.launch
+[1.248s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/launch/urg_node_ethernet.yaml
+[1.248s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/launch/urg_node_launch.py
+[1.248s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/launch/urg_node_serial.yaml
+[1.248s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/environment/library_path.sh
+[1.261s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/environment/library_path.dsv
+[1.272s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/ament_index/resource_index/package_run_dependencies/urg_node
+[1.284s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/ament_index/resource_index/parent_prefix_path/urg_node
+[1.296s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/environment/ament_prefix_path.sh
+[1.308s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/environment/ament_prefix_path.dsv
+[1.319s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/environment/path.sh
+[1.332s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/environment/path.dsv
+[1.343s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/local_setup.bash
+[1.355s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/local_setup.sh
+[1.367s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/local_setup.zsh
+[1.378s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/local_setup.dsv
+[1.390s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/package.dsv
+[1.402s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/ament_index/resource_index/packages/urg_node
+[1.414s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/ament_index/resource_index/rclcpp_components/urg_node
+[1.426s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.439s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.453s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_libraries-extras.cmake
+[1.467s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/cmake/urg_nodeConfig.cmake
+[1.479s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/cmake/urg_nodeConfig-version.cmake
+[1.491s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/package.xml
+[1.512s] Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node' returned '0': AMENT_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg LD_LIBRARY_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib:/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib:${LD_LIBRARY_PATH} PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin:${PATH} PYTHONPATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/urg_node

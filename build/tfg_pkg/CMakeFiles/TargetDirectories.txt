@@ -1,0 +1,12 @@
+/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/CMakeFiles/uninstall.dir
+/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/CMakeFiles/tfg_pkg_uninstall.dir
+/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/CMakeFiles/coppelia_simulator.dir
+/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/CMakeFiles/keyboard_control_plus.dir
+/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/CMakeFiles/actuator.dir
+/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/CMakeFiles/test.dir
+/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/CMakeFiles/edit_cache.dir
+/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/CMakeFiles/rebuild_cache.dir
+/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/CMakeFiles/list_install_components.dir
+/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/CMakeFiles/install.dir
+/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/CMakeFiles/install/local.dir
+/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/CMakeFiles/install/strip.dir

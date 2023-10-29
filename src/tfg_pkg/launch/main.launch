@@ -1,0 +1,9 @@
+<launch>
+
+  # COPPELIA SIMULATOR (see simulator.launch)
+  <include file="$(find-pkg-share tfg_pkg)/launch/coppelia_Sim.launch"/>
+
+  # RVIZ (see simulator.launch)
+  <node pkg="rviz2" exec="rviz2" name="rviz2" args="-d $(find-pkg-share tfg_pkg)/rviz/hunter_sim.rviz"/>
+  
+</launch>

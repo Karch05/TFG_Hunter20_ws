@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/coppelia_simulator" "/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/keyboard_control_plus" "/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/actuator" "TARGETS" "coppelia_simulator" "keyboard_control_plus" "actuator" "DESTINATION" "lib/tfg_pkg")

@@ -1,0 +1,1 @@
+/home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs/rosidl_generator_py/urg_node_msgs/msg/_status_s.c

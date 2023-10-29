@@ -1,0 +1,1 @@
+/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg/ament_cmake_environment_hooks/local_setup.sh

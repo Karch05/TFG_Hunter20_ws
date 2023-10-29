@@ -1,0 +1,1 @@
+/home/karch/ws/TFG_Hunter20_ws/build/urg_c/ament_cmake_core/urg_cConfig-version.cmake

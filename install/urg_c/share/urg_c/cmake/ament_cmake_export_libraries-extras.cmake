@@ -1,0 +1,1 @@
+/home/karch/ws/TFG_Hunter20_ws/build/urg_c/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

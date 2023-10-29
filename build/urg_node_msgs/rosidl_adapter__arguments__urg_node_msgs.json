@@ -1,0 +1,6 @@
+{
+  "package_name": "urg_node_msgs",
+  "non_idl_tuples": [
+    "/home/karch/ws/TFG_Hunter20_ws/src/urg_node_msgs:msg/Status.msg"
+  ]
+}

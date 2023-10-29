@@ -1,0 +1,29 @@
+# PARAMETERS FOR SIMBOT ROBOT
+$(var namespace):
+  #-------------------------------------------------
+  # HW DRIVERS
+  #-------------------------------------------------
+ 
+  coppelia_simulator:
+    ros__parameters:
+      coppelia_root_dir: "$(env COPPELIASIM_ROOT_DIR)"
+      coppelia_scene_path: "$(var tfg_pkg)/scenes/ros2_mapirlab_hunter.ttt"
+      coppelia_headless: False
+
+
+  #-------------------------------------------------
+  # UTILS
+  #-------------------------------------------------
+
+      # Log params
+      create_log: False
+      log_directory_path: "~"
+      log_interval_sec: 20
+
+  status_publisher:
+    ros__parameters:
+      output_topic: "/ros2mqtt"
+      statusRate: 1.0
+      map_frame: "map"
+      base_frame: "base_link"
+      battery_topic: "/battery_filtered"

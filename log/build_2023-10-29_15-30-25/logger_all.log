@@ -1,0 +1,375 @@
+[0.261s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.261s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1a7f79f070>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1a7ff95fc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1a7ff95fc0>>)
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.292s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/karch/ws/TFG_Hunter20_ws'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/tfg_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/tfg_pkg) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/tfg_pkg) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/tfg_pkg) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/tfg_pkg) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/tfg_pkg) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/tfg_pkg) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/tfg_pkg) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/tfg_pkg) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tfg_pkg' with type 'ros.ament_cmake' and name 'tfg_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urg_c' with type 'ros.ament_cmake' and name 'urg_c'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urg_node' with type 'ros.ament_cmake' and name 'urg_node'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urg_node_msgs' with type 'ros.ament_cmake' and name 'urg_node_msgs'
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.332s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/karch/ws/hokuyo_ws/install
+[0.333s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/karch/ws/hunter20_ws/install
+[0.334s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/karch/ws/dev_ws/install
+[0.335s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 318 installed packages in /opt/ros/humble
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'tfg_pkg' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'tfg_pkg' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'tfg_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'tfg_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'tfg_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'tfg_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'tfg_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'tfg_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'tfg_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'tfg_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg', 'merge_install': False, 'path': '/home/karch/ws/TFG_Hunter20_ws/src/tfg_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'urg_c' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karch/ws/TFG_Hunter20_ws/build/urg_c', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karch/ws/TFG_Hunter20_ws/install/urg_c', 'merge_install': False, 'path': '/home/karch/ws/TFG_Hunter20_ws/src/urg_c', 'symlink_install': True, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs', 'merge_install': False, 'path': '/home/karch/ws/TFG_Hunter20_ws/src/urg_node_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/karch/ws/TFG_Hunter20_ws/build/urg_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/karch/ws/TFG_Hunter20_ws/install/urg_node', 'merge_install': False, 'path': '/home/karch/ws/TFG_Hunter20_ws/src/urg_node', 'symlink_install': True, 'test_result_base': None}
+[0.391s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.394s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.394s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karch/ws/TFG_Hunter20_ws/src/urg_c' with build type 'ament_cmake'
+[0.394s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karch/ws/TFG_Hunter20_ws/src/urg_c'
+[0.397s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.405s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karch/ws/TFG_Hunter20_ws/src/urg_node_msgs' with build type 'ament_cmake'
+[0.405s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karch/ws/TFG_Hunter20_ws/src/urg_node_msgs'
+[0.406s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karch/ws/TFG_Hunter20_ws/src/tfg_pkg' with build type 'ament_cmake'
+[0.412s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karch/ws/TFG_Hunter20_ws/src/tfg_pkg'
+[0.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_c': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/urg_c -- -j16 -l16
+[0.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs -- -j16 -l16
+[0.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg -- -j16 -l16
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg' returned '0': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg -- -j16 -l16
+[0.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_c' returned '0': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/urg_c -- -j16 -l16
+[0.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg
+[0.692s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tfg_pkg)
+[0.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg' returned '0': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg' for CMake module files
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg' for CMake config files
+[0.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('tfg_pkg', 'cmake_prefix_path')
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/hook/cmake_prefix_path.ps1'
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/hook/cmake_prefix_path.dsv'
+[0.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/hook/cmake_prefix_path.sh'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/lib'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/bin'
+[0.711s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/lib/pkgconfig/tfg_pkg.pc'
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/lib/python3.10/site-packages'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/bin'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/package.ps1'
+[0.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/package.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/package.sh'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/package.bash'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/package.zsh'
+[0.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/colcon-core/packages/tfg_pkg)
+[0.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tfg_pkg)
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg' for CMake module files
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg' for CMake config files
+[0.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('tfg_pkg', 'cmake_prefix_path')
+[0.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/hook/cmake_prefix_path.ps1'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/hook/cmake_prefix_path.dsv'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/hook/cmake_prefix_path.sh'
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/lib'
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/bin'
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/lib/pkgconfig/tfg_pkg.pc'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/lib/python3.10/site-packages'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/bin'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/package.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/package.dsv'
+[0.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/package.sh'
+[0.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/package.bash'
+[0.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/package.zsh'
+[0.809s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/colcon-core/packages/tfg_pkg)
+[0.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_c': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/urg_c
+[0.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_c)
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c' for CMake module files
+[0.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_c' returned '0': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/urg_c
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c' for CMake config files
+[0.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'cmake_prefix_path')
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/cmake_prefix_path.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/cmake_prefix_path.dsv'
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/cmake_prefix_path.sh'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib'
+[0.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'ld_library_path_lib')
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/ld_library_path_lib.ps1'
+[0.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/ld_library_path_lib.dsv'
+[0.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/ld_library_path_lib.sh'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin'
+[0.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'path')
+[0.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/path.ps1'
+[0.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/path.dsv'
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/path.sh'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib/pkgconfig/urg_c.pc'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib/python3.10/site-packages'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin'
+[0.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'pythonscriptspath')
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/pythonscriptspath.ps1'
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/pythonscriptspath.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/pythonscriptspath.sh'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/package.ps1'
+[0.908s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/package.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/package.sh'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/package.bash'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/package.zsh'
+[0.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/colcon-core/packages/urg_c)
+[0.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs -- -j16 -l16
+[1.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_c)
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c' for CMake module files
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c' for CMake config files
+[1.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'cmake_prefix_path')
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/cmake_prefix_path.ps1'
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/cmake_prefix_path.dsv'
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/cmake_prefix_path.sh'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib'
+[1.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'ld_library_path_lib')
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/ld_library_path_lib.ps1'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/ld_library_path_lib.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/ld_library_path_lib.sh'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin'
+[1.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'path')
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/path.ps1'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/path.dsv'
+[1.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/path.sh'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib/pkgconfig/urg_c.pc'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib/python3.10/site-packages'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin'
+[1.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'pythonscriptspath')
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/pythonscriptspath.ps1'
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/pythonscriptspath.dsv'
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/hook/pythonscriptspath.sh'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/package.ps1'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/package.dsv'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/package.sh'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/package.bash'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/urg_c/package.zsh'
+[1.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karch/ws/TFG_Hunter20_ws/install/urg_c/share/colcon-core/packages/urg_c)
+[1.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs
+[1.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node_msgs)
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs' for CMake module files
+[1.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs' for CMake config files
+[1.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node_msgs', 'cmake_prefix_path')
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.ps1'
+[1.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.dsv'
+[1.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.sh'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib'
+[1.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node_msgs', 'ld_library_path_lib')
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.ps1'
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.dsv'
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.sh'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/bin'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/pkgconfig/urg_node_msgs.pc'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/python3.10/site-packages'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/bin'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/package.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/package.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/package.sh'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/package.bash'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/package.zsh'
+[1.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/colcon-core/packages/urg_node_msgs)
+[1.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node_msgs)
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs' for CMake module files
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs' for CMake config files
+[1.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node_msgs', 'cmake_prefix_path')
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.ps1'
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.dsv'
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.sh'
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib'
+[1.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node_msgs', 'ld_library_path_lib')
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.ps1'
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.dsv'
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.sh'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/bin'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/pkgconfig/urg_node_msgs.pc'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/python3.10/site-packages'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/bin'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/package.ps1'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/package.dsv'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/package.sh'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/package.bash'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/package.zsh'
+[1.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/colcon-core/packages/urg_node_msgs)
+[1.267s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/karch/ws/TFG_Hunter20_ws/src/urg_node' with build type 'ament_cmake'
+[1.267s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/karch/ws/TFG_Hunter20_ws/src/urg_node'
+[1.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node': AMENT_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg LD_LIBRARY_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib:/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib:${LD_LIBRARY_PATH} PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin:${PATH} PYTHONPATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/urg_node -- -j16 -l16
+[1.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node' returned '0': AMENT_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg LD_LIBRARY_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib:/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib:${LD_LIBRARY_PATH} PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin:${PATH} PYTHONPATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/urg_node -- -j16 -l16
+[1.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node': AMENT_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg LD_LIBRARY_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib:/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib:${LD_LIBRARY_PATH} PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin:${PATH} PYTHONPATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/urg_node
+[1.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[1.498s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node' for CMake module files
+[1.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node' returned '0': AMENT_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs:/home/karch/ws/TFG_Hunter20_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg LD_LIBRARY_PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib:/home/karch/ws/TFG_Hunter20_ws/install/urg_c/lib:${LD_LIBRARY_PATH} PATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_c/bin:${PATH} PYTHONPATH=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/urg_node
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node' for CMake config files
+[1.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[1.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/lib'
+[1.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/bin'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/lib/pkgconfig/urg_node.pc'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/lib/python3.10/site-packages'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/bin'
+[1.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/package.ps1'
+[1.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/package.dsv'
+[1.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/package.sh'
+[1.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/package.bash'
+[1.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/package.zsh'
+[1.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/colcon-core/packages/urg_node)
+[1.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node' for CMake module files
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node' for CMake config files
+[1.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[1.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[1.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/lib'
+[1.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/bin'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/lib/pkgconfig/urg_node.pc'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/lib/python3.10/site-packages'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/bin'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/package.ps1'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/package.dsv'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/package.sh'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/package.bash'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/urg_node/package.zsh'
+[1.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/karch/ws/TFG_Hunter20_ws/install/urg_node/share/colcon-core/packages/urg_node)
+[1.574s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.574s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.574s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.574s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.580s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.580s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.580s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.592s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/karch/ws/TFG_Hunter20_ws/install/local_setup.ps1'
+[1.594s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/karch/ws/TFG_Hunter20_ws/install/_local_setup_util_ps1.py'
+[1.595s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/karch/ws/TFG_Hunter20_ws/install/setup.ps1'
+[1.596s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/karch/ws/TFG_Hunter20_ws/install/local_setup.sh'
+[1.597s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/karch/ws/TFG_Hunter20_ws/install/_local_setup_util_sh.py'
+[1.597s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/karch/ws/TFG_Hunter20_ws/install/setup.sh'
+[1.598s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/karch/ws/TFG_Hunter20_ws/install/local_setup.bash'
+[1.599s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/karch/ws/TFG_Hunter20_ws/install/setup.bash'
+[1.601s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/karch/ws/TFG_Hunter20_ws/install/local_setup.zsh'
+[1.601s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/karch/ws/TFG_Hunter20_ws/install/setup.zsh'

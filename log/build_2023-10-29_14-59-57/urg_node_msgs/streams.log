@@ -1,0 +1,206 @@
+[0.029s] Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake /home/karch/ws/TFG_Hunter20_ws/src/urg_node_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs
+[0.163s] -- The C compiler identification is GNU 11.4.0
+[0.256s] -- The CXX compiler identification is GNU 11.4.0
+[0.266s] -- Detecting C compiler ABI info
+[0.366s] -- Detecting C compiler ABI info - done
+[0.373s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.373s] -- Detecting C compile features
+[0.374s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.501s] -- Detecting CXX compiler ABI info - done
+[0.509s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.510s] -- Detecting CXX compile features
+[0.510s] -- Detecting CXX compile features - done
+[0.518s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.748s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.823s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.874s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.932s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.940s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.953s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.972s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.000s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.024s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.040s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.412s] -- Found ament_cmake_cppcheck: 0.12.7 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.416s] -- Found ament_cmake_cpplint: 0.12.7 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.419s] -- Found ament_cmake_uncrustify: 0.12.7 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.423s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.888s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.055s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.058s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.086s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.086s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.086s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.086s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.109s] -- Found PythonExtra: .so  
+[2.168s] -- Found ament_cmake_flake8: 0.12.7 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.171s] -- Found ament_cmake_pep257: 0.12.7 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.184s] -- Configuring done
+[2.222s] -- Generating done
+[2.226s] -- Build files have been written to: /home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs
+[2.234s] Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake /home/karch/ws/TFG_Hunter20_ws/src/urg_node_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs
+[2.237s] Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs -- -j16 -l16
+[2.289s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.302s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.315s] [  6%] Built target ament_cmake_python_symlink_urg_node_msgs
+[2.668s] running egg_info
+[2.669s] creating urg_node_msgs.egg-info
+[2.669s] writing urg_node_msgs.egg-info/PKG-INFO
+[2.669s] writing dependency_links to urg_node_msgs.egg-info/dependency_links.txt
+[2.670s] writing top-level names to urg_node_msgs.egg-info/top_level.txt
+[2.670s] writing manifest file 'urg_node_msgs.egg-info/SOURCES.txt'
+[2.674s] reading manifest file 'urg_node_msgs.egg-info/SOURCES.txt'
+[2.675s] writing manifest file 'urg_node_msgs.egg-info/SOURCES.txt'
+[2.705s] [  6%] Built target urg_node_msgs__cpp
+[2.725s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.726s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.726s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.753s] [ 16%] Built target ament_cmake_python_build_urg_node_msgs_egg
+[2.756s] [ 19%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_generator_c.dir/rosidl_generator_c/urg_node_msgs/msg/detail/status__functions.c.o[0m
+[2.825s] [ 22%] [32m[1mLinking C shared library liburg_node_msgs__rosidl_generator_c.so[0m
+[2.890s] [ 22%] Built target urg_node_msgs__rosidl_generator_c
+[2.910s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.912s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.912s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.123s] [ 35%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/urg_node_msgs/msg/status__type_support.cpp.o[0m
+[3.147s] [ 38%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/urg_node_msgs/msg/detail/status__type_support.cpp.o[0m
+[3.244s] [ 41%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/urg_node_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[3.345s] [ 45%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/urg_node_msgs/msg/status__type_support.cpp.o[0m
+[3.381s] [ 48%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/urg_node_msgs/msg/detail/status__type_support_c.cpp.o[0m
+[3.393s] [ 51%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_c.so[0m
+[3.430s] [ 54%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/urg_node_msgs/msg/detail/status__type_support.c.o[0m
+[3.446s] [ 58%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_cpp.so[0m
+[3.461s] [ 58%] Built target urg_node_msgs__rosidl_typesupport_c
+[3.479s] [ 61%] [32m[1mLinking C shared library liburg_node_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.509s] [ 61%] Built target urg_node_msgs__rosidl_typesupport_cpp
+[3.533s] [ 61%] Built target urg_node_msgs__rosidl_typesupport_introspection_c
+[3.619s] [ 64%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.682s] [ 64%] Built target urg_node_msgs__rosidl_typesupport_introspection_cpp
+[3.780s] [ 67%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.784s] [ 70%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.929s] [ 70%] Built target urg_node_msgs__rosidl_typesupport_fastrtps_cpp
+[3.930s] [ 70%] Built target urg_node_msgs__rosidl_typesupport_fastrtps_c
+[3.960s] [ 70%] Built target urg_node_msgs
+[3.993s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.445s] [ 74%] Built target urg_node_msgs__py
+[4.477s] [ 77%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_generator_py.dir/rosidl_generator_py/urg_node_msgs/msg/_status_s.c.o[0m
+[4.604s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/urg_node_msgs/liburg_node_msgs__rosidl_generator_py.so[0m
+[4.663s] [ 80%] Built target urg_node_msgs__rosidl_generator_py
+[4.692s] [ 87%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.692s] [ 87%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.693s] [ 90%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.811s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.812s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.812s] [100%] [32m[1mLinking C shared library rosidl_generator_py/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.866s] [100%] Built target urg_node_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.866s] [100%] Built target urg_node_msgs__rosidl_typesupport_introspection_c__pyext
+[4.866s] [100%] Built target urg_node_msgs__rosidl_typesupport_c__pyext
+[4.885s] Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs -- -j16 -l16
+[4.991s] Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs
+[5.002s] -- Install configuration: ""
+[5.002s] -- Execute custom install script
+[5.002s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/ament_index/resource_index/rosidl_interfaces/urg_node_msgs
+[5.017s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__functions.h
+[5.031s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__struct.h
+[5.045s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__type_support.h
+[5.058s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.070s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/status.h
+[5.083s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/environment/library_path.sh
+[5.096s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/environment/library_path.dsv
+[5.108s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[5.120s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.134s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__builder.hpp
+[5.147s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__struct.hpp
+[5.162s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__traits.hpp
+[5.175s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/status.hpp
+[5.188s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.201s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.214s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[5.228s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.241s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[5.254s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/environment/pythonpath.sh
+[5.266s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/environment/pythonpath.dsv
+[5.281s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs-1.0.1-py3.10.egg-info/PKG-INFO
+[5.294s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs-1.0.1-py3.10.egg-info/SOURCES.txt
+[5.308s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs-1.0.1-py3.10.egg-info/dependency_links.txt
+[5.322s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs-1.0.1-py3.10.egg-info/top_level.txt
+[5.336s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/__init__.py
+[5.349s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_c.c
+[5.364s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.378s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.392s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/liburg_node_msgs__rosidl_generator_py.so
+[5.405s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/msg/__init__.py
+[5.418s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/msg/_status.py
+[5.432s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/msg/_status_s.c
+[5.445s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.458s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.470s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.483s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.484s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.485s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.485s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/msg/Status.idl
+[5.498s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/msg/Status.msg
+[5.513s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/mapping_rules.yaml
+[5.527s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/ament_index/resource_index/package_run_dependencies/urg_node_msgs
+[5.541s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/ament_index/resource_index/parent_prefix_path/urg_node_msgs
+[5.554s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/environment/ament_prefix_path.sh
+[5.566s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/environment/ament_prefix_path.dsv
+[5.579s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/environment/path.sh
+[5.592s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/environment/path.dsv
+[5.607s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/local_setup.bash
+[5.620s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/local_setup.sh
+[5.634s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/local_setup.zsh
+[5.649s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/local_setup.dsv
+[5.663s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/package.dsv
+[5.678s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/ament_index/resource_index/packages/urg_node_msgs
+[5.692s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/rosidl_cmake-extras.cmake
+[5.706s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.720s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.733s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.747s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.759s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.770s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.783s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgsConfig.cmake
+[5.796s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgsConfig-version.cmake
+[5.809s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/package.xml
+[5.822s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_generator_c.so
+[5.822s] -- Set runtime path of "/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_generator_c.so" to ""
+[5.822s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_fastrtps_c.so
+[5.823s] -- Set runtime path of "/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.823s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.823s] -- Set runtime path of "/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.823s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_introspection_c.so
+[5.824s] -- Set runtime path of "/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.824s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_c.so
+[5.824s] -- Set runtime path of "/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_c.so" to ""
+[5.825s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_introspection_cpp.so
+[5.825s] -- Set runtime path of "/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.825s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_cpp.so
+[5.826s] -- Set runtime path of "/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_cpp.so" to ""
+[5.861s] Listing '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs'...
+[5.861s] Compiling '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/__init__.py'...
+[5.861s] Listing '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/msg'...
+[5.861s] Compiling '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/msg/__init__.py'...
+[5.861s] Compiling '/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/msg/_status.py'...
+[5.867s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_generator_py.so
+[5.868s] -- Set runtime path of "/home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_generator_py.so" to ""
+[5.868s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_generator_cExport.cmake
+[5.868s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.868s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.868s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.869s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_generator_cppExport.cmake
+[5.869s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.869s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.869s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.869s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.869s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_cExport.cmake
+[5.870s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.870s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.870s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.870s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_cppExport.cmake
+[5.870s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.870s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_generator_pyExport.cmake
+[5.871s] -- Installing: /home/karch/ws/TFG_Hunter20_ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.878s] Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs

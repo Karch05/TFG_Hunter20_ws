@@ -1,0 +1,1 @@
+/home/karch/ws/TFG_Hunter20_ws/build/urg_node_msgs/rosidl_typesupport_fastrtps_cpp/urg_node_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

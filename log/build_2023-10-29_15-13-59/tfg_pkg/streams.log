@@ -1,0 +1,58 @@
+[0.025s] Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg -- -j16 -l16
+[0.113s] [ 50%] [32mBuilding CXX object CMakeFiles/actuator.dir/src/actuator.cpp.o[0m
+[0.113s] [ 50%] Built target coppelia_simulator
+[0.117s] [ 83%] Built target keyboard_control_plus
+[7.597s] [100%] [32m[1mLinking CXX executable actuator[0m
+[8.045s] [100%] Built target actuator
+[8.061s] Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg' returned '0': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --build /home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg -- -j16 -l16
+[8.109s] Invoking command in '/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg
+[8.117s] -- Install configuration: ""
+[8.117s] -- Execute custom install script
+[8.117s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/lib/tfg_pkg/coppelia_simulator
+[8.118s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/lib/tfg_pkg/keyboard_control_plus
+[8.118s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/lib/tfg_pkg/actuator
+[8.118s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//launch/coppelia_Sim.launch
+[8.118s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//launch/hunter_params.yaml
+[8.118s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//launch/main.launch
+[8.118s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//launch/nav2_hunter20_launch.py
+[8.119s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//launch/nav2_hunter20_params.yaml
+[8.119s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//launch/nav2_sim_launch.py
+[8.119s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//launch/nav2_sim_params.yaml
+[8.119s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//launch/robot.launch
+[8.119s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//launch/simbot_launch.py
+[8.119s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//launch/simbot_params.yaml
+[8.119s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//launch/simulator.launch
+[8.119s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//launch/urg_hokuyo_launch.py
+[8.119s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//scenes/ros2_mapirlab_hunter20.ttt
+[8.119s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//maps/mapirlab.pgm
+[8.119s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//maps/mapirlab.yaml
+[8.120s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//rviz/hunter_robot.rviz
+[8.120s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//rviz/hunter_sim.rviz
+[8.120s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//meshes/base_link.STL
+[8.120s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//meshes/front_left_wheel_link.STL
+[8.120s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//meshes/front_right_wheel_link.STL
+[8.120s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//meshes/front_steer_left_link.STL
+[8.121s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//meshes/front_steer_link.STL
+[8.121s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//meshes/front_steer_right_link.STL
+[8.121s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//meshes/left_rear_link.STL
+[8.121s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//meshes/rear_wheel_link.STL
+[8.121s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//meshes/right_rear_link.STL
+[8.121s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//urdf/hunter2.xacro
+[8.121s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//urdf/hunter2_base.csv
+[8.121s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg//urdf/hunter2_urdf.xml
+[8.121s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/ament_index/resource_index/package_run_dependencies/tfg_pkg
+[8.122s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/ament_index/resource_index/parent_prefix_path/tfg_pkg
+[8.122s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/environment/ament_prefix_path.sh
+[8.122s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/environment/ament_prefix_path.dsv
+[8.122s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/environment/path.sh
+[8.122s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/environment/path.dsv
+[8.122s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/local_setup.bash
+[8.122s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/local_setup.sh
+[8.122s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/local_setup.zsh
+[8.123s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/local_setup.dsv
+[8.123s] -- Symlinking: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/package.dsv
+[8.134s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/ament_index/resource_index/packages/tfg_pkg
+[8.134s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/cmake/tfg_pkgConfig.cmake
+[8.134s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/cmake/tfg_pkgConfig-version.cmake
+[8.134s] -- Up-to-date symlink: /home/karch/ws/TFG_Hunter20_ws/install/tfg_pkg/share/tfg_pkg/package.xml
+[8.139s] Invoked command in '/home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg' returned '0': CMAKE_PREFIX_PATH=/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/robot_status_publisher:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/dev_ws/install/first_pkg /usr/bin/cmake --install /home/karch/ws/TFG_Hunter20_ws/build/tfg_pkg
