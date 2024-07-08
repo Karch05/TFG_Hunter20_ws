@@ -16,6 +16,9 @@ find_package(rclcpp REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(diagnostic_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -24,16 +27,22 @@ find_package(geometry_msgs REQUIRED)
 add_executable(coppelia_simulator src/run_coppelia_simulator.cpp)
 add_executable(keyboard_control_plus src/keyboard_control_plus.cpp)
 add_executable(actuator src/actuator.cpp)
+add_executable(avoidance src/avoidance.cpp)
+add_executable(parking src/parking.cpp)
 
 ament_target_dependencies(coppelia_simulator rclcpp)
 ament_target_dependencies(keyboard_control_plus rclcpp std_msgs geometry_msgs)
-ament_target_dependencies(actuator rclcpp std_msgs geometry_msgs)
+ament_target_dependencies(actuator rclcpp std_msgs geometry_msgs nav_msgs)
+ament_target_dependencies(avoidance rclcpp std_msgs geometry_msgs rosgraph_msgs diagnostic_msgs sensor_msgs nav_msgs)
+ament_target_dependencies(parking rclcpp std_msgs geometry_msgs rosgraph_msgs diagnostic_msgs sensor_msgs nav_msgs)
 
 # Declare and install executables
 install(TARGETS
   coppelia_simulator
   keyboard_control_plus
   actuator
+  avoidance
+  parking
   DESTINATION lib/${PROJECT_NAME}
 )
 
