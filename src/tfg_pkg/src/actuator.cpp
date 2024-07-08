@@ -4,9 +4,9 @@ using std::placeholders::_1;
 
 Actuator::Actuator(): Node ("actuator")
 {
-    pub_ = this->create_publisher<geometry_msgs::msg::Twist> ( "/action",10);
+    pub_ = this->create_publisher<geometry_msgs::msg::Twist> ( "/cmd_vel",10);
 
-    sub_ = this->create_subscription<geometry_msgs::msg::Twist>("/cmd_vel", 10, std::bind(&Actuator::execute_command, this, _1) );
+    sub_ = this->create_subscription<nav_msgs::msg::Odometry>("Hunter20/odom", 10, std::bind(&Actuator::execute_command, this, _1) );
 
 };
 
@@ -15,23 +15,50 @@ Actuator::~Actuator()
 
 }
 
-void Actuator::execute_command(const geometry_msgs::msg::Twist::SharedPtr msg) const
+void Actuator::execute_command(const nav_msgs::msg::Odometry::SharedPtr msg) 
     {
-        geometry_msgs::msg::Twist actuation;
-        float linear, angular;
-        linear = msg->linear.x;
-        angular = msg->angular.z;
-
-        if (linear < 0 ) {angular=-angular;}
-
-        if ( linear > -0.051 && linear < -0.049 && angular == 0) {angular = 0.2;}
-	 
-        actuation.linear.x = linear;
-        actuation.angular.z = angular;
-        
-        pub_->publish(actuation);
-
-        printf("Velocidad Lineal: %f y Velocidad Angular: %f \n", linear, angular);
+        count_ += 1;
+        if (count_ > 0 && count_< 375)
+            {
+                next_move_.linear.x = 0.2;
+                next_move_.angular.z = 0.3;
+                pub_->publish(next_move_);
+                printf("contador de aparcamiento: %li. \n", count_);
+            }
+            else if (count_ > 375 && count_ < 400)
+            {
+                next_move_.linear.x = 0.2;
+                next_move_.angular.z = 0;
+                pub_->publish(next_move_);
+                printf("contador de aparcamiento: %li. \n", count_);
+            }
+            else if (count_ > 400 && count_ < 800)
+            {
+                next_move_.linear.x = 0.2;
+                next_move_.angular.z = 0.3;
+                pub_->publish(next_move_);
+                printf("contador de aparcamiento: %li. \n", count_);
+            }
+            else if (count_ > 800 && count_ < 900)
+            {
+                next_move_.linear.x = 0.2;
+                next_move_.angular.z = 0;
+                pub_->publish(next_move_);
+                printf("contador de aparcamiento: %li. \n", count_);
+            }
+            else if (count_ > 900 && count_ < 1100)
+            {
+                next_move_.linear.x = -0.2;
+                next_move_.angular.z = 0;
+                pub_->publish(next_move_);
+                printf("contador de aparcamiento: %li. \n", count_);
+            }
+            else
+            {
+            next_move_.linear.x = 0;
+                next_move_.angular.z = 0;
+                pub_->publish(next_move_); 
+            }
     }
 
 int main ( int argc, char * argv[] )
